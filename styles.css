@@ -95,3 +95,6 @@ input[type="submit"] {
   border: 1 px solid green;
   margin-bottom: 50px;
 }
+#test {
+  font-style: normal;
+}
