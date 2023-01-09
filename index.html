@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Survey Form</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title">The 2022 World Cup</h1>
+      <p id="description"> Was It the Best World Cup Ever ?</p>
+
+      <form action="" id="survey-form">
+
+        <div class="form-div">
+          <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+          
+          <div class="form-div">
+          <label id="email-label">Email</label>
+            <input id="email" type="email" name="name" placeholder="Enter your Email Address" required>
+            </div>
+
+           <div class="form-div"> 
+           <label id="number-label">Age (optional)</label>
+            <input id="number" type="number" min="6" max ="120" placeholder="Enter your Age" required>
+            </div>
+          
+          <div class="form-div">
+            <label id="dropdown-label">Who was your Favourite team?</label>
+
+ <select id="dropdown" name="dropdown">
+   <option value="">Select Favorite Team</option>
+            <option value="1">Argentina</option>
+            <option value="2">France</option>
+            <option value="3">Morocco</option>
+            <option value="4">Brazil</option>
+            <option value="5">Other</option>
+          </select>
+          </div>
+
+          <div class="form-div">
+          <label id="label-radio">Who was the most outstanding player of the Cup?</label>
+          </div>
+          <div class="form-radio">
+            
+            <label id="messi"><input type="radio" name="best" value="Messi">Messi</label>
+            </div>
+        <div class="form-radio">
+          <label id="mbappe"><input type="radio" name="best" value="Mbappe">Mbappe</label>
+          </div>
+
+          <div class="form-radio">
+          <label id="neymar"><input type="radio" name="best" value="neymar">Neymar</label>
+          </div>
+
+<div class="form-div">
+            <label id="label-checkbox">What needs to be improved for the next World Cup</label>
+            <div class="div-checkbox">
+              <input type="checkbox"name="improvement" value="final"></label>
+              </div>
+<div class="div-checkbox">
+            <label>  <input type="checkbox" value="final"></label>
+            </div>
+            <br/>
+            <div class="form-div">
+              <label id="label-textarea">Any comments or suggestions?</label>
+              <textarea name="suggestion" placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <div class="form-div btn">
+              <input id="submit" type="submit" value="Submit">
+            </div>
+           
+
+
+      </form>
+      </body>
+      </html>
+
